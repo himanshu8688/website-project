@@ -13,13 +13,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; 
+    gap: 60px; 
     padding: 20px;
 }
 
 .featured-card {
 
-    background-color: #ffffff;
+    background-color: none;
+    backdrop-filter: blur(10px);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 0px 0px 10px 0px;
@@ -31,7 +32,7 @@
 }
 
 .featured-card:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .featured-card img {
